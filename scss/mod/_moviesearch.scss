@@ -1,0 +1,56 @@
+
+.movie{
+    &-search {
+        margin-bottom: 50px;
+        &__input {
+            width: 500px;
+            height: 60px;
+            padding: 10px 15px;
+            margin-right: 25px;
+        }
+        &__button {
+            width: 250px;
+            height: 60px;
+            font-size: 32px;
+            background-color: #0094FF;
+            padding: 10px 70px;
+        }
+    }
+
+    &-list__item {
+        margin-bottom: 5px;
+        &-link {
+            display: block;
+            width: 660px;
+            height: 215px;
+            border-radius: 35px;
+            :hover{
+                background-color: #D9D9D9;
+            }
+        }
+        &-body {
+            display: flex;
+            align-items: center;
+            padding: 40px 35px;
+        }
+        &-img {
+            height: 150px;
+            margin-right: 65px;
+        }
+        &-content {
+        }
+        &-title {
+            font-weight: 700;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        &-year {
+            font-size: 25px;
+            color: #0094FF;
+            margin-bottom: 20px;
+        }
+        &-genre {
+            font-size: 30px;
+        }
+    }
+}
