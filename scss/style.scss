@@ -13,6 +13,9 @@ body{
 .open {
     display: block;
 }
+.close {
+    display: none;
+}
 .conteiner{
     max-width: 960px;
     margin: 100px auto;

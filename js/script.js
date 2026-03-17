@@ -2,6 +2,7 @@ const apiKey = '9d8db7a3'
 const CLASS_ERROR = 'error';
 const CLASS_SHAKE = 'shake';
 const OPENED_CLASSNAME = 'open';
+const CLOSE_CLASSNAME = 'close';
 const BODY_FIXED_CLASSNAME = 'body-fixed';
 const types = [
     { type: 'movie', name: 'Фильм' },
@@ -152,6 +153,7 @@ document.addEventListener('keydown', function (event) {
 function movieOpenClose() {
     movie.classList.toggle(OPENED_CLASSNAME);
     bodyNode.classList.toggle(BODY_FIXED_CLASSNAME);
+    movieList.classList.toggle(CLOSE_CLASSNAME);
 }
 
 document.addEventListener("click", function (e) {

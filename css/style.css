@@ -150,7 +150,7 @@ table {
   position: absolute;
   top: 0;
   background-color: #fff;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 .movie .conteiner {
   position: relative;
@@ -217,6 +217,10 @@ body {
 
 .open {
   display: block;
+}
+
+.close {
+  display: none;
 }
 
 .conteiner {
