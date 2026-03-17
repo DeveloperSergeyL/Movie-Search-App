@@ -43,7 +43,7 @@ function chackingError(name) {
 }
 
 function search(searchMovie) {
-    const urlImg = `http://www.omdbapi.com/?s=${searchMovie}&apikey=${apiKey}`
+    const urlImg = `https://www.omdbapi.com/?s=${searchMovie}&apikey=${apiKey}`
     fetch(urlImg)
         .then(response => response.json())
         .then((res) => {
@@ -53,7 +53,7 @@ function search(searchMovie) {
 }
 
 function open(id) {
-    const urlMovie = `http://www.omdbapi.com/?i=${id}&apikey=${apiKey}`
+    const urlMovie = `https://www.omdbapi.com/?i=${id}&apikey=${apiKey}`
     fetch(urlMovie)
         .then(response => response.json())
         .then((res) => {
