@@ -1,7 +1,8 @@
-
 .movie{
-    &-search {
+    &-input {
         margin-bottom: 50px;
+    }
+    &-search{
         &__input {
             width: 500px;
             height: 60px;
@@ -16,15 +17,17 @@
             padding: 10px 70px;
         }
     }
-
     &-list__item {
         margin-bottom: 5px;
+        &:hover{
+            cursor: pointer;
+        }
         &-link {
             display: block;
             width: 660px;
             height: 215px;
-            border-radius: 35px;
-            :hover{
+            border-radius: 35px; 
+            &:hover{
                 background-color: #D9D9D9;
             }
         }
@@ -36,8 +39,6 @@
         &-img {
             height: 150px;
             margin-right: 65px;
-        }
-        &-content {
         }
         &-title {
             font-weight: 700;
