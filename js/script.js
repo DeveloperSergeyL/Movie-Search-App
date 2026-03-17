@@ -12,6 +12,7 @@ const types = [
 const bodyNode = document.querySelector('body');
 const movieList = document.querySelector('.movie-list');
 const movieItem = document.querySelector('.movie-list__item');
+const movieSearch = document.querySelector('.movie-search');
 const movieInputNode = document.querySelector('.movie-search__input');
 const movieBtnSearch = document.querySelector('.movie-search__button');
 const movieBackToSerch = document.querySelector('.movie__back-to-search');
@@ -151,7 +152,7 @@ document.addEventListener('keydown', function (event) {
 
 function movieOpenClose() {
     movie.classList.toggle(OPENED_CLASSNAME);
-    movieList.classList.toggle(CLOSE_CLASSNAME);
+    movieSearch.classList.toggle(CLOSE_CLASSNAME);
 }
 
 document.addEventListener("click", function (e) {

@@ -35,3 +35,22 @@ body{
         color: #da0202e3;
     }
 }
+
+@media (max-width: 1199px) {
+    body{
+        font-size: 20px;
+    }
+    .conteiner{
+        width: 768px;
+        margin: 20px auto;
+    }
+}
+@media  (max-width: 767px) {
+    body{
+        font-size: 14px;
+    }
+    .conteiner{
+        width: 400px;
+        margin: 10px auto;
+    }
+}
